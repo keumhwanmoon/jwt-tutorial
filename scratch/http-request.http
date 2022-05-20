@@ -1,0 +1,18 @@
+### Authenticate
+POST {{host}}:8080/api/authenticate
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin"
+}
+
+### Hello
+GET {{host}}:8080/api/hello
+
+### User
+GET {{host}}:8080/api/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTY1MzA1ODY0OH0.hRkMDVp6mQXt_xiF3o5nih5MoJd8UrXXccjcPhPaEyyT91SmVxGXgCTGznDbkGpALVQhJPKorX0gBLmWq8mheA
+
+### User
+GET {{host}}:8080/api/user
